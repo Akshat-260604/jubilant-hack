@@ -131,6 +131,4 @@ Open `http://localhost:3000` in the browser.
 
 - `src12/` and `chat-fun/` are legacy microservices; all production‑facing endpoints that the frontend uses are now exposed via `unified-backend/`.
 - The project assumes you have access to the necessary cloud services (MongoDB, Qdrant, AWS S3, OpenAI). These are not provisioned automatically.
-- For any changes to shared models or services, update `unified-backend` first; `src12` / `chat-fun` can be kept as references. 
-
-
+- For any changes to shared models or services, update `unified-backend` first; `src12` / `chat-fun` can be kept as references.
