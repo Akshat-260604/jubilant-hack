@@ -2,6 +2,8 @@
 
 A full-stack **Healthcare AI Assistant** prototype that enables intelligent document processing, semantic search, and AI-powered medical report generation. This system allows healthcare professionals to upload medical documents, sync with Google Drive, chat with documents using RAG (Retrieval Augmented Generation), and generate structured medical reports.
 
+> **Note**: Screenshots and images are referenced in this README. To view them, ensure the image files are present in the `docs/images/` directory. See the [Images Setup](#images-setup) section below.
+
 ---
 
 ## 📋 Table of Contents
@@ -10,10 +12,11 @@ A full-stack **Healthcare AI Assistant** prototype that enables intelligent docu
 2. [Architecture Overview](#architecture-overview)
 3. [Prerequisites](#prerequisites)
 4. [Installation & Setup](#installation--setup)
-5. [How It Works](#how-it-works)
-6. [API Endpoints](#api-endpoints)
-7. [Usage Guide](#usage-guide)
-8. [Disclaimer](#disclaimer)
+5. [Images Setup](#images-setup)
+6. [How It Works](#how-it-works)
+7. [API Endpoints](#api-endpoints)
+8. [Usage Guide](#usage-guide)
+9. [Disclaimer](#disclaimer)
 
 ---
 
@@ -272,7 +275,31 @@ npm run dev
 
 The frontend will be available at `http://localhost:3000`
 
-### Step 4: Verify Installation
+### Step 4: Images Setup (Optional)
+
+To view screenshots in this README, add the following image files to the `docs/images/` directory:
+
+- `main-interface.png` - Main application interface
+- `document-preview.png` - Document preview interface
+- `chat-interface.png` - Chat interface with document preview
+- `source-highlighting.png` - Source highlighting example
+- `report-generator.png` - Report generation interface
+- `document-management.png` - Document management interface
+
+You can add these images by:
+1. Taking screenshots of your application
+2. Saving them with the exact filenames listed above
+3. Placing them in the `docs/images/` directory
+4. Committing and pushing them to the repository
+
+```bash
+# Add images to the repository
+git add docs/images/*.png
+git commit -m "Add application screenshots"
+git push
+```
+
+### Step 5: Verify Installation
 
 1. **Backend Health Check**: Visit `http://localhost:8004/api/v1/health_check`
    - Should return: `{"statusCode": 200, "message": "Server is running successfully"}`
