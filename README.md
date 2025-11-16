@@ -30,6 +30,12 @@ A full-stack **Healthcare AI Assistant** prototype that enables intelligent docu
 - **🌐 Multi-language Support**: Translation and language processing capabilities
 - **📝 Document Previews**: View processed documents with extracted tables, images, and outlines
 
+### Application Interface
+
+![Main Interface](docs/images/main-interface.png)
+
+*Main application interface showing document management, Google Drive integration, and chat functionality*
+
 ---
 
 ## 🏗️ Architecture Overview
@@ -321,6 +327,10 @@ In parallel, the system also:
 - Creates document outline/summary
 - Stores all metadata in MongoDB
 
+![Document Preview](docs/images/document-preview.png)
+
+*Document preview interface showing uploaded documents with page navigation*
+
 ### Chat with Documents
 
 #### Single Document Chat
@@ -333,6 +343,14 @@ When you select a specific document and chat:
 5. **LLM Processing**: OpenAI GPT model processes the query with context
 6. **Response Streaming**: Response is streamed back with citations
 7. **Source Highlighting**: Citations include page numbers and exact locations
+
+![Chat Interface](docs/images/chat-interface.png)
+
+*Split-screen interface showing document preview on the left and AI chat conversation on the right with source citations*
+
+![Source Highlighting](docs/images/source-highlighting.png)
+
+*Document page with highlighted sections showing exact source locations for chat responses*
 
 **Endpoint**: `POST /api/v1/chat`
 ```json
@@ -404,6 +422,10 @@ The system can generate structured medical reports from one or multiple document
 4. **LLM Processing**: OpenAI generates structured content for each section
 5. **Report Assembly**: Sections are combined into a formatted report
 6. **Download**: Report is available for download as PDF/DOCX
+
+![Report Generator](docs/images/report-generator.png)
+
+*Report generation interface allowing users to select documents, choose report sections, and customize report content*
 
 **Endpoint**: `POST /api/v1/reports/generate`
 ```json
@@ -487,6 +509,10 @@ The system can generate structured medical reports from one or multiple document
    - Go to "Documents" or "Upload" section
    - Upload PDF medical documents
    - Wait for processing to complete (status will show "Completed")
+
+   ![Document Management](docs/images/document-management.png)
+
+   *Document management interface showing uploaded files and Google Drive integration*
 
 3. **Chat with Documents**
    - **Single Document**: Select a document from the list, then type your question
