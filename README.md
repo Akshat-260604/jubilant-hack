@@ -197,8 +197,7 @@ Create a `.env` file in the `unified-backend/` directory:
 ```bash
 # MongoDB Configuration
 DOCUMENT_DB_CONNECTION_STRING=mongodb://localhost:27017/healthcare_ai
-# Or for MongoDB Atlas:
-# DOCUMENT_DB_CONNECTION_STRING=mongodb+srv://username:password@cluster.mongodb.net/dbname
+# Or for MongoDB Atlas, use your connection string from MongoDB Atlas dashboard
 
 # Qdrant Configuration
 QDRANT_HOST_URL=http://localhost:6333
