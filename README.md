@@ -35,7 +35,7 @@ A full-stack **Healthcare AI Assistant** prototype that enables intelligent docu
 
 ### Application Interface
 
-![Main Interface](docs/images/main-interface.png)
+![Main Interface](docs/images/Screenshot%202025-11-16%20at%201.19.14%20PM.png)
 
 *Main application interface showing document management, Google Drive integration, and chat functionality*
 
@@ -353,7 +353,7 @@ In parallel, the system also:
 - Creates document outline/summary
 - Stores all metadata in MongoDB
 
-![Document Preview](docs/images/document-preview.png)
+![Document Preview](docs/images/Screenshot%202025-11-16%20at%201.27.52%20PM.png)
 
 *Document preview interface showing uploaded documents with page navigation*
 
@@ -370,11 +370,11 @@ When you select a specific document and chat:
 6. **Response Streaming**: Response is streamed back with citations
 7. **Source Highlighting**: Citations include page numbers and exact locations
 
-![Chat Interface](docs/images/chat-interface.png)
+![Chat Interface](docs/images/Screenshot%202025-11-16%20at%201.28.40%20PM.png)
 
 *Split-screen interface showing document preview on the left and AI chat conversation on the right with source citations*
 
-![Source Highlighting](docs/images/source-highlighting.png)
+![Source Highlighting](docs/images/Screenshot%202025-11-16%20at%201.29.37%20PM.png)
 
 *Document page with highlighted sections showing exact source locations for chat responses*
 
@@ -449,7 +449,7 @@ The system can generate structured medical reports from one or multiple document
 5. **Report Assembly**: Sections are combined into a formatted report
 6. **Download**: Report is available for download as PDF/DOCX
 
-![Report Generator](docs/images/report-generator.png)
+![Report Generator](docs/images/Screenshot%202025-11-16%20at%201.29.45%20PM.png)
 
 *Report generation interface allowing users to select documents, choose report sections, and customize report content*
 
@@ -536,7 +536,7 @@ The system can generate structured medical reports from one or multiple document
    - Upload PDF medical documents
    - Wait for processing to complete (status will show "Completed")
 
-   ![Document Management](docs/images/document-management.png)
+   ![Document Management](docs/images/Screenshot%202025-11-16%20at%201.29.56%20PM.png)
 
    *Document management interface showing uploaded files and Google Drive integration*
 
